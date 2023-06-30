@@ -2,12 +2,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import Header from './Header';
-import ImageSlider from './Home/ImageSlider';
+import LandingPage from './Home/LandingPage';
 function App() {
   return (
     <div className="App">
       <Header/>
-      <ImageSlider/>
+      <LandingPage/>
     </div>
   );
 }
