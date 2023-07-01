@@ -35,11 +35,13 @@ function Header() {
                   View Policies
                 </a>
               </li>
+              <Link to = "/policy-details">
               <li className="nav-item">
                 <a className="btn btn-primary" href="#">
                   Claim Policy
                 </a>
               </li>
+              </Link>
               
             </ul>
           </div>
