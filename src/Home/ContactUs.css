@@ -1,0 +1,24 @@
+.contact-us{
+    display: flex;
+    padding: 80px;
+}
+.contact-para{
+    padding: 20px;
+    width: 50%;
+}
+.contact-1{
+    padding: 15px;
+    border: 1px solid black;
+    width: 50%;
+    margin: 40px 20px;
+    border-radius: 15px;
+    display: flex;
+}
+.contact-2{
+    padding: 15px;
+    margin: 40px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50%;
+    display: flex;
+}

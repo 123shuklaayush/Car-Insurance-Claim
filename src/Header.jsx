@@ -1,16 +1,19 @@
 import React from "react";
 import logo from './banner/apex-ensure.png'
 import './Header.css'
+import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src={logo} width= "150px" alt="test" className="img-logo"/>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
+          <a className="navbar-brand">
+            <Link to = "/">
+            <img src={logo} width= "150px" alt="test" classNameName="img-logo"/>
+            </Link>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -18,22 +21,22 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto list-items">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto list-items">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   About Us
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   View Policies
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="btn btn-primary" href="#">
+              <li className="nav-item">
+                <a className="btn btn-primary" href="#">
                   Claim Policy
                 </a>
               </li>

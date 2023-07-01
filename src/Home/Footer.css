@@ -1,0 +1,9 @@
+.foot{
+    background-color: #edfeff;
+    height: 10rem;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}

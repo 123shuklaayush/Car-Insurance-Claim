@@ -12,7 +12,7 @@ function ApplyImage() {
   const targetClaimCount = 200;
 
   const calculateSpeed = (targetValue) => {
-    const maxSpeed = 10; // Adjust the maximum speed here
+    const maxSpeed = 20; // Adjust the maximum speed here
     const speed = Math.ceil(targetValue / 100); // Adjust the divisor to control the speed
     return Math.min(maxSpeed, speed);
   };
